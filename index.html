@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>meituan</title>
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/meituan.css">
+</head>
+<body>
+	<header>
+		<a data-href="#" class="city">北京</a></div>
+		<a data-href="#" class="search">输入商家/品类/商圈</a>
+		<a data-href="#" class="my">我的</a>
+	</header>
+	<div class="down">
+		<img src="images/down1.jpg" alt="">
+	</div>
+	<nav>
+		<a href="#">美食</a>
+		<a href="#">猫眼电影</a>
+		<a href="#">酒店</a>
+		<a href="#">休闲娱乐</a>
+		<a href="#">外卖</a>
+		<a href="#">KTV</a>
+		<a href="#">周边游</a>
+		<a href="#">丽人</a>
+		<a href="#">小吃快餐</a>
+		<a href="#">机票/火车票</a>
+	</nav>
+	<div class="pic">
+		<div>
+			<span>我们约吧</span>
+			<span>恋人家人好朋友</span>
+			<img src="images/yue.png" alt="">
+		</div>
+		<div>
+			<span>低价超值</span>
+			<span>十元惠生活</span>
+			<img src="images/hanbao.jpg" alt="">
+		</div>
+		<div>
+			<span>逛街必备</span>
+			<span>甜点奶茶随手找</span>
+			<img src="images/coffee.png" alt="">
+		</div>
+	</div>
+	<div class="love">
+		<h2>猜你喜欢</h2>
+		<ul>
+			<li>
+				<img src="images/bing.jpg" alt="">
+				<div>
+					<h3>掉渣饼</h3>
+					<p>[西单]掉渣饼一份，提供免费WIFI</p>
+					<span>6.9</span><span>元</span>
+					<span>门市价:10元</span>
+					<span>已售1392</span>
+				</div>	
+			</li>
+			<li>
+				<img src="images/guo.jpg" alt="">
+				<div>
+					<h3>正新鸡排</h3>
+					<p>[全国]【官方】正新鸡排尊享版单人餐</p>
+					<span>9.5</span><span>元</span>
+					<span>门市价:20元</span>
+					<span>已售17227984</span>
+				</div>
+			</li>
+			<li>
+				<img src="images/jiyejia.jpg" alt="">
+				<div>
+					<h3>吉野家</h3>
+					<p>[148店通用]鸡汁烧鱼+茶碗蒸+中可乐1份</p>
+					<span>16</span><span>元</span>
+					<span>门市价:13元</span>
+					<span>已售1904</span>
+				</div>
+			</li>
+			<li>
+				<img src="images/down.png" class="down">
+			</li>
+			<li>
+				<img src="images/bing.jpg" alt="">
+				<div>
+					<h3>掉渣饼</h3>
+					<p>[西单]掉渣饼一份，提供免费WIFI</p>
+					<span>6.9</span><span>元</span>
+					<span>门市价:10元</span>
+					<span>已售1392</span>
+				</div>	
+			</li>
+			<li>
+				<img src="images/guo.jpg" alt="">
+				<div>
+					<h3>正新鸡排</h3>
+					<p>[全国]【官方】正新鸡排尊享版单人餐</p>
+					<span>9.5</span><span>元</span>
+					<span>门市价:20元</span>
+					<span>已售17227984</span>
+				</div>
+			</li>
+			<li>
+				<img src="images/jiyejia.jpg" alt="">
+				<div>
+					<h3>吉野家</h3>
+					<p>[148店通用]鸡汁烧鱼+茶碗蒸+中可乐1份</p>
+					<span>16</span><span>元</span>
+					<span>门市价:13元</span>
+					<span>已售1904</span>
+				</div>
+			</li>
+		</ul>
+		<h2 class="see">查看全部团购<span>&gt;</span></h2>
+	</div>
+	<footer>
+		<a class="sign" href="#">登录</a>
+		<a class="sign" href="#">注册</a>
+		<div>
+			<span>城市：</span>
+			<a href="#" >北京</a>
+		</div>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">我的</a></li>
+			<li><a href="#">美团下载</a></li>
+			<li><a href="#">电脑版</a></li>
+			<li><a href="#">帮助</a></li>
+		</ul>
+		<p>友情链接：<a href="#" class="link">猫眼电影</a><a href="#" class="link">大众点评</a><a href="#" class="link">美团旅行</a><a href="#" class="link">大众点评下载</a></p>
+		<hr/>
+		<p class="copy">&copy;2017美团网 京ICP证070791号</p>
+	</footer>
+	<div class="bg">
+		<div>
+			<img src="images/logo.png" alt="">
+			<span>9.9元看电影</span><br>
+			<span>快来美团手机客户端</span>
+		</div>
+		<a href="#">点击下载</a>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	set();
+	window.onresize = set;
+	function set(){
+		var w = document.documentElement.clientWidth || document.body.clientWidth;
+		if(w<=320){
+	
+			document.documentElement.style.fontSize = (320/600)*20 + "px";
+		}else{
+			document.documentElement.style.fontSize = (w/600)*20 + "px";
+		}
+		
+	}
+</script>
+
